@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 75%;
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1 {
+    background-color:  rgb(88, 126, 221);
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: block;
+    
+}
+
+.addhereBox {
+    width: 95%;
+    height: 40%;
+    margin: auto;
+}
+
+.bttn {
+    margin: auto;
+    width: 70%;
+    margin-top: 5px;
+    background-color: rgb(237, 196, 202);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.done {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tablebody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:  1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.output {
+    background-color: #d2d8ec;
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tasks {
+    width: 75%;
+    background-color: rgb(153, 178, 235);
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+}
+
+.delete, .edit{
+    margin: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.delete a {
+    background-color: rgb(247, 235, 235);
+    color: red;
+}
+
+
+.box1 {
+    background-color: red;
+    border: solid red;
+}
